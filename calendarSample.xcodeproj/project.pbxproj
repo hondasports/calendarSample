@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277999FB165E031F00274078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277999FA165E031F00274078 /* UIKit.framework */; };
+		277999FD165E031F00274078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277999FC165E031F00274078 /* Foundation.framework */; };
+		277999FF165E031F00274078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277999FE165E031F00274078 /* CoreGraphics.framework */; };
+		27799A05165E031F00274078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27799A03165E031F00274078 /* InfoPlist.strings */; };
+		27799A07165E031F00274078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A06165E031F00274078 /* main.m */; };
+		27799A0B165E031F00274078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A0A165E031F00274078 /* AppDelegate.m */; };
+		27799A0D165E031F00274078 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27799A0C165E031F00274078 /* Default.png */; };
+		27799A0F165E031F00274078 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27799A0E165E031F00274078 /* Default@2x.png */; };
+		27799A11165E031F00274078 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27799A10165E031F00274078 /* Default-568h@2x.png */; };
+		27799A14165E031F00274078 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27799A12165E031F00274078 /* MainStoryboard_iPhone.storyboard */; };
+		27799A17165E031F00274078 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27799A15165E031F00274078 /* MainStoryboard_iPad.storyboard */; };
+		27799A1A165E031F00274078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A19165E031F00274078 /* ViewController.m */; };
+		27799A22165E031F00274078 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27799A21165E031F00274078 /* SenTestingKit.framework */; };
+		27799A23165E031F00274078 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277999FA165E031F00274078 /* UIKit.framework */; };
+		27799A24165E031F00274078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277999FC165E031F00274078 /* Foundation.framework */; };
+		27799A2C165E031F00274078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27799A2A165E031F00274078 /* InfoPlist.strings */; };
+		27799A2F165E031F00274078 /* calendarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A2E165E031F00274078 /* calendarSampleTests.m */; };
+		27799A3E165E0AE900274078 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A3D165E0AE900274078 /* CollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27799A25165E031F00274078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277999ED165E031F00274078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277999F5165E031F00274078;
+			remoteInfo = calendarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		277999F6165E031F00274078 /* calendarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277999FA165E031F00274078 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		277999FC165E031F00274078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		277999FE165E031F00274078 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27799A02165E031F00274078 /* calendarSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calendarSample-Info.plist"; sourceTree = "<group>"; };
+		27799A04165E031F00274078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27799A06165E031F00274078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27799A08165E031F00274078 /* calendarSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calendarSample-Prefix.pch"; sourceTree = "<group>"; };
+		27799A09165E031F00274078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27799A0A165E031F00274078 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27799A0C165E031F00274078 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27799A0E165E031F00274078 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27799A10165E031F00274078 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27799A13165E031F00274078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		27799A16165E031F00274078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		27799A18165E031F00274078 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27799A19165E031F00274078 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27799A20165E031F00274078 /* calendarSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calendarSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27799A21165E031F00274078 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27799A29165E031F00274078 /* calendarSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calendarSampleTests-Info.plist"; sourceTree = "<group>"; };
+		27799A2B165E031F00274078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27799A2D165E031F00274078 /* calendarSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calendarSampleTests.h; sourceTree = "<group>"; };
+		27799A2E165E031F00274078 /* calendarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calendarSampleTests.m; sourceTree = "<group>"; };
+		27799A3C165E0AE900274078 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		27799A3D165E0AE900274078 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277999F3165E031F00274078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277999FB165E031F00274078 /* UIKit.framework in Frameworks */,
+				277999FD165E031F00274078 /* Foundation.framework in Frameworks */,
+				277999FF165E031F00274078 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27799A1C165E031F00274078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27799A22165E031F00274078 /* SenTestingKit.framework in Frameworks */,
+				27799A23165E031F00274078 /* UIKit.framework in Frameworks */,
+				27799A24165E031F00274078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277999EB165E031F00274078 = {
+			isa = PBXGroup;
+			children = (
+				27799A00165E031F00274078 /* calendarSample */,
+				27799A27165E031F00274078 /* calendarSampleTests */,
+				277999F9165E031F00274078 /* Frameworks */,
+				277999F7165E031F00274078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277999F7165E031F00274078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277999F6165E031F00274078 /* calendarSample.app */,
+				27799A20165E031F00274078 /* calendarSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277999F9165E031F00274078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277999FA165E031F00274078 /* UIKit.framework */,
+				277999FC165E031F00274078 /* Foundation.framework */,
+				277999FE165E031F00274078 /* CoreGraphics.framework */,
+				27799A21165E031F00274078 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27799A00165E031F00274078 /* calendarSample */ = {
+			isa = PBXGroup;
+			children = (
+				27799A09165E031F00274078 /* AppDelegate.h */,
+				27799A0A165E031F00274078 /* AppDelegate.m */,
+				27799A12165E031F00274078 /* MainStoryboard_iPhone.storyboard */,
+				27799A3C165E0AE900274078 /* CollectionViewCell.h */,
+				27799A3D165E0AE900274078 /* CollectionViewCell.m */,
+				27799A15165E031F00274078 /* MainStoryboard_iPad.storyboard */,
+				27799A18165E031F00274078 /* ViewController.h */,
+				27799A19165E031F00274078 /* ViewController.m */,
+				27799A01165E031F00274078 /* Supporting Files */,
+			);
+			path = calendarSample;
+			sourceTree = "<group>";
+		};
+		27799A01165E031F00274078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27799A02165E031F00274078 /* calendarSample-Info.plist */,
+				27799A03165E031F00274078 /* InfoPlist.strings */,
+				27799A06165E031F00274078 /* main.m */,
+				27799A08165E031F00274078 /* calendarSample-Prefix.pch */,
+				27799A0C165E031F00274078 /* Default.png */,
+				27799A0E165E031F00274078 /* Default@2x.png */,
+				27799A10165E031F00274078 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27799A27165E031F00274078 /* calendarSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				27799A2D165E031F00274078 /* calendarSampleTests.h */,
+				27799A2E165E031F00274078 /* calendarSampleTests.m */,
+				27799A28165E031F00274078 /* Supporting Files */,
+			);
+			path = calendarSampleTests;
+			sourceTree = "<group>";
+		};
+		27799A28165E031F00274078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27799A29165E031F00274078 /* calendarSampleTests-Info.plist */,
+				27799A2A165E031F00274078 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277999F5165E031F00274078 /* calendarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27799A32165E031F00274078 /* Build configuration list for PBXNativeTarget "calendarSample" */;
+			buildPhases = (
+				277999F2165E031F00274078 /* Sources */,
+				277999F3165E031F00274078 /* Frameworks */,
+				277999F4165E031F00274078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calendarSample;
+			productName = calendarSample;
+			productReference = 277999F6165E031F00274078 /* calendarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27799A1F165E031F00274078 /* calendarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27799A35165E031F00274078 /* Build configuration list for PBXNativeTarget "calendarSampleTests" */;
+			buildPhases = (
+				27799A1B165E031F00274078 /* Sources */,
+				27799A1C165E031F00274078 /* Frameworks */,
+				27799A1D165E031F00274078 /* Resources */,
+				27799A1E165E031F00274078 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27799A26165E031F00274078 /* PBXTargetDependency */,
+			);
+			name = calendarSampleTests;
+			productName = calendarSampleTests;
+			productReference = 27799A20165E031F00274078 /* calendarSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277999ED165E031F00274078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "MIYAMOTO TATSUYA";
+			};
+			buildConfigurationList = 277999F0165E031F00274078 /* Build configuration list for PBXProject "calendarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 277999EB165E031F00274078;
+			productRefGroup = 277999F7165E031F00274078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277999F5165E031F00274078 /* calendarSample */,
+				27799A1F165E031F00274078 /* calendarSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277999F4165E031F00274078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27799A05165E031F00274078 /* InfoPlist.strings in Resources */,
+				27799A0D165E031F00274078 /* Default.png in Resources */,
+				27799A0F165E031F00274078 /* Default@2x.png in Resources */,
+				27799A11165E031F00274078 /* Default-568h@2x.png in Resources */,
+				27799A14165E031F00274078 /* MainStoryboard_iPhone.storyboard in Resources */,
+				27799A17165E031F00274078 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27799A1D165E031F00274078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27799A2C165E031F00274078 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27799A1E165E031F00274078 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		277999F2165E031F00274078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27799A07165E031F00274078 /* main.m in Sources */,
+				27799A0B165E031F00274078 /* AppDelegate.m in Sources */,
+				27799A1A165E031F00274078 /* ViewController.m in Sources */,
+				27799A3E165E0AE900274078 /* CollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27799A1B165E031F00274078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27799A2F165E031F00274078 /* calendarSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27799A26165E031F00274078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277999F5165E031F00274078 /* calendarSample */;
+			targetProxy = 27799A25165E031F00274078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27799A03165E031F00274078 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27799A04165E031F00274078 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27799A12165E031F00274078 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27799A13165E031F00274078 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		27799A15165E031F00274078 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27799A16165E031F00274078 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		27799A2A165E031F00274078 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27799A2B165E031F00274078 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27799A30165E031F00274078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27799A31165E031F00274078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27799A33165E031F00274078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calendarSample/calendarSample-Prefix.pch";
+				INFOPLIST_FILE = "calendarSample/calendarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27799A34165E031F00274078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calendarSample/calendarSample-Prefix.pch";
+				INFOPLIST_FILE = "calendarSample/calendarSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27799A36165E031F00274078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/calendarSample.app/calendarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calendarSample/calendarSample-Prefix.pch";
+				INFOPLIST_FILE = "calendarSampleTests/calendarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27799A37165E031F00274078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/calendarSample.app/calendarSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calendarSample/calendarSample-Prefix.pch";
+				INFOPLIST_FILE = "calendarSampleTests/calendarSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		277999F0165E031F00274078 /* Build configuration list for PBXProject "calendarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27799A30165E031F00274078 /* Debug */,
+				27799A31165E031F00274078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27799A32165E031F00274078 /* Build configuration list for PBXNativeTarget "calendarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27799A33165E031F00274078 /* Debug */,
+				27799A34165E031F00274078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27799A35165E031F00274078 /* Build configuration list for PBXNativeTarget "calendarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27799A36165E031F00274078 /* Debug */,
+				27799A37165E031F00274078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277999ED165E031F00274078 /* Project object */;
+}
