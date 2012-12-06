@@ -10,9 +10,14 @@
 
 @implementation AppDelegate
 
+@synthesize vc = _vc;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    CollectionViewLayout* cvl = [[CollectionViewLayout alloc] init];
+    self.vc = [[ViewController alloc] initWithCollectionViewLayout:cvl];
+    self.window.rootViewController = self.vc;
     return YES;
 }
 							

@@ -25,6 +25,7 @@
 		27799A2C165E031F00274078 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27799A2A165E031F00274078 /* InfoPlist.strings */; };
 		27799A2F165E031F00274078 /* calendarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A2E165E031F00274078 /* calendarSampleTests.m */; };
 		27799A3E165E0AE900274078 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27799A3D165E0AE900274078 /* CollectionViewCell.m */; };
+		27D30CF9166CB0FC007F4F42 /* CollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D30CF8166CB0FC007F4F42 /* CollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		27799A2E165E031F00274078 /* calendarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calendarSampleTests.m; sourceTree = "<group>"; };
 		27799A3C165E0AE900274078 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		27799A3D165E0AE900274078 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		27D30CF7166CB0FC007F4F42 /* CollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewLayout.h; sourceTree = "<group>"; };
+		27D30CF8166CB0FC007F4F42 /* CollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 		27799A00165E031F00274078 /* calendarSample */ = {
 			isa = PBXGroup;
 			children = (
+				27D30CF7166CB0FC007F4F42 /* CollectionViewLayout.h */,
+				27D30CF8166CB0FC007F4F42 /* CollectionViewLayout.m */,
 				27799A09165E031F00274078 /* AppDelegate.h */,
 				27799A0A165E031F00274078 /* AppDelegate.m */,
 				27799A12165E031F00274078 /* MainStoryboard_iPhone.storyboard */,
@@ -283,6 +288,7 @@
 				27799A0B165E031F00274078 /* AppDelegate.m in Sources */,
 				27799A1A165E031F00274078 /* ViewController.m in Sources */,
 				27799A3E165E0AE900274078 /* CollectionViewCell.m in Sources */,
+				27D30CF9166CB0FC007F4F42 /* CollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +473,7 @@
 				27799A34165E031F00274078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27799A35165E031F00274078 /* Build configuration list for PBXNativeTarget "calendarSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +482,7 @@
 				27799A37165E031F00274078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

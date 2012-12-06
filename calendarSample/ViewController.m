@@ -19,8 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    datas = [[NSArray alloc] initWithObjects:@"兵庫県", @"大阪市", @"神戸市", nil];
-    
+    datas = [[NSArray alloc] initWithObjects:@"兵庫県", @"大阪市", @"神戸市", @"奈良県", @"滋賀県", nil];
     [self.collectionView registerClass:[CollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
     
 }
